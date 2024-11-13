@@ -3,7 +3,7 @@ import BlogCards from "./BlogCards/BlogCards"
 export default function AppMain() {
     return (
         <main>
-            <section className="mainCards">
+            <section className="container">
                 {posts.map((post, index) => <BlogCards key={index} post={post} />)}
             </section>
         </main>

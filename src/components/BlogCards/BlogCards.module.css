@@ -1,17 +1,16 @@
 .card {
     display: flex;
-    width: calc(100% / 12 * 4);
+    width: 31%;
     flex-direction: column;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 10rem;
-    gap: 1rem;
+    gap: 0.5rem;
     background-color: white;
     border-radius: 10px;
 }
 
 .postPic {
     width: 100%;
+    aspect-ratio: 1;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }

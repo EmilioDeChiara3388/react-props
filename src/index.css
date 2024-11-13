@@ -18,12 +18,15 @@ footer {
 }
 
 main {
-    /* height: calc(100vh - 85.6px); */
     background-color: lightgray;
 }
 
-.mainCards {
-    display: flex;
+.container {
+    width: 80%;
     margin: auto;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 0;
+    justify-content: flex-start;
 }

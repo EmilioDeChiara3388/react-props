@@ -4,7 +4,7 @@ import Button from "../Button/Button"
 export default function BlogCards({ post }) {
     return (
         <div className={style.card}>
-            <div>
+            <div className={style.cardPic}>
                 <img src={post.image} alt="" className={style.postPic} />
             </div>
             <div className={style.details}>
