@@ -1,0 +1,12 @@
+.btn {
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: red;
+    transform: scale(1.2);
+}

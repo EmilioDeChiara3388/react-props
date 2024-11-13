@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    width: calc(100% / 12 * 4);
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.postPic {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details {
+    margin-left: 1rem;
+}
