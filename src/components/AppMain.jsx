@@ -6,6 +6,9 @@ export default function AppMain() {
             <section className="container">
                 {posts.map((post, index) => <BlogCards key={index} post={post} />)}
             </section>
+            <section className="differentTags">
+
+            </section>
         </main>
     )
 }
