@@ -8,7 +8,14 @@ img {
     max-width: 100%;
 }
 
-header,
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -29,4 +36,13 @@ main {
     gap: 2rem;
     padding: 3rem 0;
     justify-content: flex-start;
+}
+
+.differentTags {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    line-height: 2rem;
 }

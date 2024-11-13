@@ -7,7 +7,8 @@ export default function AppMain() {
                 {posts.map((post, index) => <BlogCards key={index} post={post} />)}
             </section>
             <section className="differentTags">
-
+                <h4>Tag Presenti nei Posts</h4>
+                {posts.map(post => post.tags.toString())}
             </section>
         </main>
     )
